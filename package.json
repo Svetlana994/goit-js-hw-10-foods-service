@@ -7,11 +7,11 @@
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
     "build": "webpack --env.mode production --config ./webpack/config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/Svetlana994/goit-js-hw-10-food-service1"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Svetlana994/goit-js-hw-10-food-service1.git"
+    "url": "git+https://github.com/Svetlana994/goit-js-hw-10-foods-service.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Svetlana994/goit-js-hw-10-food-service1/issues"
   },
-  "homepage": "https://svetlana994.github.io/goit-js-hw-10-food-service1",
+  "homepage": "https://svetlana994.github.io/goit-js-hw-10-foods-service",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
